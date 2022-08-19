@@ -1,0 +1,69 @@
+/* Write your CSS here */
+.lightContainer {
+  background-color: #ffffff;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+}
+@media screen and (max-width: 568px) {
+  .lightContainer {
+    width: 50%;
+  }
+
+  .darkContainer {
+    width: 50%;
+  }
+  .darkHead {
+    font-size: 30px;
+  }
+  .lightHead {
+    font-size: 30px;
+  }
+  .home {
+    height: 80%;
+    width: 50%;
+  }
+}
+
+.home {
+  height: 80%;
+  width: 50%;
+}
+
+.darkContainer {
+  background-color: #000000;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+}
+.darkHead {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-weight: 800;
+  font-size: 40px;
+}
+.lightHead {
+  color: #1e293b;
+  font-family: 'Roboto';
+  font-weight: 800;
+  font-size: 40px;
+}
+
+.darkPara {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-weight: 800;
+  font-size: 30px;
+}
+.lightPara {
+  color: #dcdcdc;
+  font-family: 'Roboto';
+  font-weight: 800;
+  font-size: 40px;
+}

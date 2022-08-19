@@ -1,0 +1,58 @@
+/* Write your CSS here */
+.lightContainer {
+  background-color: #ffffff;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+}
+@media screen and (max-width: 568px) {
+  .lightContainer {
+    width: 50%;
+  }
+
+  .darkContainer {
+    width: 50%;
+  }
+  .darkHead {
+    font-size: 30px;
+  }
+  .lightHead {
+    font-size: 30px;
+  }
+}
+
+.about {
+  height: 500px;
+  width: 500px;
+}
+
+@media screen and (max-width: 568px) {
+  .about {
+    height: 250px;
+    width: 250px;
+  }
+}
+.darkContainer {
+  background-color: #000000;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+}
+.darkHead {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-weight: 800;
+  font-size: 40px;
+}
+.lightHead {
+  color: #1e293b;
+  font-family: 'Roboto';
+  font-weight: 800;
+  font-size: 40px;
+}

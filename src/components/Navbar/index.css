@@ -1,0 +1,81 @@
+.lightNavContainer {
+  background-color: #f8fafc;
+  height: 10vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+}
+@media screen and (max-width: 568px) {
+  .lightNavContainer {
+    width: 50%;
+  }
+
+  .darkNavContainer {
+    width: 50%;
+  }
+  .darkNavHead {
+    font-size: 30px;
+  }
+  .lightNavHead {
+    font-size: 30px;
+  }
+}
+
+.homeNav {
+  height: 70px;
+  width: 70px;
+  margin-left: 10px;
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+
+.darkBtnNav {
+  height: 50px;
+  width: 50px;
+  margin-right: 10px;
+}
+
+.lightBtnNav {
+  height: 50px;
+  width: 50px;
+  margin-right: 10px;
+}
+.btn {
+  background-color: transparent;
+  border: 0px;
+  cursor: pointer;
+  margin-right: 10px;
+  padding: 5px;
+}
+.darkNavContainer {
+  background-color: #333333;
+  height: 10vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+}
+.darkNavHead {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-weight: 800;
+  font-size: 20px;
+  padding: 10px;
+}
+.lightNavHead {
+  color: #1e293b;
+  font-family: 'Roboto';
+  font-weight: 800;
+  font-size: 20px;
+  padding: 10px;
+}
+.centerNav {
+  display: flex;
+}
+.link {
+  text-decoration: none;
+  cursor: pointer;
+}
